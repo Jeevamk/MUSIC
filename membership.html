@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beats</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="membership.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- header section starts -->
+    <section class="header">
+        <div class="nav">
+            <div class="logo">
+                <h1>Beats</h1>
+                <!-- <img src="" alt=""> -->
+            </div>
+            <div class="navItems">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="">Albums</a></li>
+                    <li><a href="">Pages</a></li>
+                    <li><a href="">Event</a></li>
+                    <li><a href="">New</a></li>
+                    <li><a href="#">Membership</a></li>
+                </ul>
+
+            </div>
+            <div class="navIcons">
+                <ul>
+                    <li><i class="fa-solid fa-user"></i></li>
+                    <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                </ul>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="Membership">
+        <div class="member">
+            <div class="first">
+                <form action="#">
+                    <label for="name">Name</label><br>
+                    <input type="text" id="fname" name="name" placeholder="First Name" required><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" placeholder="Email" required><br>
+                    <label for="number">Phone Number</label><br>
+                    <input type="number" id="number" name="number" placeholder="Phone Number" required><br>
+                    <label for="address">Address</label><br>
+                    <input type="text" id="address" name="address" placeholder="Address" required><br>
+                    <label for="city">City</label><br>
+                    <input type="text" id="city" name="city" placeholder="City" required><br>
+                    <label for="state">State</label><br>
+                    <input type="text" id="state" name="state" placeholder="State" required><br>
+                    <label for="pin">Pincode</label><br>
+                    <input type="number" id="pin" name="pin" placeholder="Pincode"><br>
+                </form>
+
+            </div>
+            <div class="second">
+                <form action="">
+                    <label for="country">Country</label><br><br>
+                    <select id="country" name="country">
+                        <option value="Please select">Please Select</option>
+                        <option value="India">India</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="Australia">Australia</option>
+                    </select><br><br>
+                    <label for="dateofbirth">Date of Birth</label><br>
+                    <input type="date" name="dateofbirth" id="date" placeholder="Date"><br><br>
+                    <label for="myfile">Attach Your Photo:</label>
+                    <input type="file" id="myfile" name="myfile"><br><br>
+                </form>
+                <h3>Where did you hear about us?</h3><br>
+                <div class="checkBox">
+                    <form action="" class="check">
+                        <input type="checkbox" id="friend" name="friend">
+                        <label for="friend"> A friend or colleauge</label>
+                        <input type="checkbox" id="google" name="google">
+                        <label for="google">Google</label>
+                        <input type="checkbox" id="News" name="News">
+                        <label for="News"> News Article</label>
+                        <input type="checkbox" id="other" name="other">
+                        <label for="other">Other</label>
+                    </form>
+                </div>
+                <h3>Prefered Way to Contact</h3>
+                <div class="radioBtn">
+                    <form action="">
+                        <input type="radio" id="phone" name="contact">
+                        <label for="phone">Phone</label>
+                        <input type="radio" id="Email" name="contact">
+                        <label for="Email">Email</label>
+                        <input type="radio" id="Any" name="contact">
+                        <label for="any">Any</label><br><br>
+                        <textarea name="message" rows="6" cols="50">Message</textarea><br>
+                        <input type="submit" value="Submit">
+                    </form>
+
+
+                </div>
+            </div>
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
