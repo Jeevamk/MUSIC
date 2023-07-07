@@ -40,78 +40,85 @@
 
     </section>
 
-    <section class="Membership">
-        <div class="member">
-            <div class="first">
-                <form action="#">
-                    <label for="name">Name</label><br>
-                    <input type="text" id="fname" name="name" placeholder="First Name" required><br>
-                    <label for="email">Email</label><br>
-                    <input type="email" id="email" name="email" placeholder="Email" required><br>
-                    <label for="number">Phone Number</label><br>
-                    <input type="number" id="number" name="number" placeholder="Phone Number" required><br>
-                    <label for="address">Address</label><br>
-                    <input type="text" id="address" name="address" placeholder="Address" required><br>
-                    <label for="city">City</label><br>
-                    <input type="text" id="city" name="city" placeholder="City" required><br>
-                    <label for="state">State</label><br>
-                    <input type="text" id="state" name="state" placeholder="State" required><br>
-                    <label for="pin">Pincode</label><br>
-                    <input type="number" id="pin" name="pin" placeholder="Pincode"><br>
-                </form>
+   
+                
+    <section class="booking">
+        <div class="bookingForm">
+            <div class="formHead">
+                <img src="./images/booking.jpg" alt="" width="100%" height="200px">
+                <div class="booking-text">
+                    <h1 class="beat">BEATS</h1>
+                    <h2>BOOKING FORM</h2>
+                </div><br><br>
+                <div class="formBody">
+                    <div class="form1">
+                        <form action="">
+                            <label for="Name">Name of Your Event</label><br>
+                            <input type="text" id="Name" name="Name"><br><br>
+                            <label for="date">Event Date</label><br>
+                            <input type="date" id="date" name="date"><br><br>
+                            <h2>Location</h2><br>
+                            <label for="street">Street</label><br>
+                            <input type="text" id="street"><br><br>
+                            <label for="state">State</label><br>
+                            <input type="text" id="state" name="state"><br><br>
+                        </form>
+                    </div>
+                    <div class="form2">
+                        <form action="">
+                            <label for="inform">More Information About Your Event</label><br>
+                            <input type="text" id="inform" name="inform"><br><br>
+                            <label for="time">Event Time</label><br>
+                            <input type="time" id="time"><br><br><br>
+                            <label for="city">City</label><br><br>
+                            <input type="text" id="city"><br><br>
+                            <label for="code">Zip/Post Code</label><br>
+                            <input type="text" id="code"><br><br><br><br>
+                        </form>
+                    </div>
 
-            </div>
-            <div class="second">
-                <form action="">
-                    <label for="country">Country</label><br><br>
-                    <select id="country" name="country">
-                        <option value="Please select">Please Select</option>
-                        <option value="India">India</option>
-                        <option value="Argentina">Argentina</option>
-                        <option value="Brazil">Brazil</option>
-                        <option value="Australia">Australia</option>
-                    </select><br><br>
-                    <label for="dateofbirth">Date of Birth</label><br>
-                    <input type="date" name="dateofbirth" id="date" placeholder="Date"><br><br>
-                    <label for="myfile">Attach Your Photo:</label>
-                    <input type="file" id="myfile" name="myfile"><br><br>
-                </form>
-                <h3>Where did you hear about us?</h3><br>
-                <div class="checkBox">
-                    <form action="" class="check">
-                        <input type="checkbox" id="friend" name="friend">
-                        <label for="friend"> A friend or colleauge</label>
-                        <input type="checkbox" id="google" name="google">
-                        <label for="google">Google</label>
-                        <input type="checkbox" id="News" name="News">
-                        <label for="News"> News Article</label>
-                        <input type="checkbox" id="other" name="other">
-                        <label for="other">Other</label>
-                    </form>
                 </div>
-                <h3>Prefered Way to Contact</h3>
-                <div class="radioBtn">
+                <div class="form3">
                     <form action="">
-                        <input type="radio" id="phone" name="contact">
-                        <label for="phone">Phone</label>
-                        <input type="radio" id="Email" name="contact">
-                        <label for="Email">Email</label>
-                        <input type="radio" id="Any" name="contact">
-                        <label for="any">Any</label><br><br>
-                        <textarea name="message" rows="6" cols="50">Message</textarea><br>
-                        <input type="submit" value="Submit">
+                        <label for="Country">Country</label><br>
+                        <select id="Country" name="cars">
+                            <option value="Select">Select</option>
+                            <option value="india">Indai</option>
+                            <option value="Argentina">Argentina</option>
+                            <option value="Australia">Australia</option>
+                        </select><br><br>
+                        <div class="form4">
+                            <div class="checkBox">
+                            <h3>Where did you hear about us?</h3><br>
+                            
+                                <input type="checkbox" id="friend" name="friend">
+                                <label for="friend"> A friend or colleauge</label>
+                                <input type="checkbox" id="google" name="google">
+                                <label for="google">Google</label>
+                                <input type="checkbox" id="News" name="News">
+                                <label for="News"> News Article</label>
+                                <input type="checkbox" id="other" name="other">
+                                <label for="other">Other</label><br><br>
+                                <h3>Prefered Way to Contact</h3><br>
+                                <div class="radioBtn">
+                                    <input type="radio" id="phone" name="contact">
+                                    <label for="phone">Phone</label>
+                                    <input type="radio" id="Email" name="contact">
+                                    <label for="Email">Email</label>
+                                    <input type="radio" id="Any" name="contact">
+                                    <label for="any">Any</label>
+                                </div>
+                            </div>
+                            <div class="textMessage">
+                                <textarea name="message" rows="7" cols="50">Message</textarea><br>
+                            </div>
+                        </div>
                     </form>
-
-
                 </div>
             </div>
-
-
-
+            <button type="submit" id="btn">SUBMIT</button>
+        </div>
     </section>
-
-
-
 
 
 
